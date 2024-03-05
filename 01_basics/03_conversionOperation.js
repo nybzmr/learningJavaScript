@@ -79,8 +79,41 @@ boolean conversion
 
 //string conversion
 
-let anyNumber = 33;
+// let anyNumber = 33;
 
-let stringNumber = String(anyNumber);
-console.log(typeof stringNumber);
-console.log(stringNumber);
+// let stringNumber = String(anyNumber);
+// console.log(typeof stringNumber);
+// console.log(stringNumber);
+
+
+
+
+// ******************* OPERATIONS******************
+let value = 3 
+let negValue = -value;
+console.log(2+2)
+console.log(2-2)
+console.log(2*2)
+console.log(2**2)// 2 raise to the power 2
+console.log(2/2)
+console.log(2%2)// modulus operato
+
+
+let str1 = 'hello'
+let str2 = 'Nayaab'
+let sumStr = str1+ str2;
+console.log(sumStr); // will print hello Nayaab
+
+
+
+
+// number and string addition
+console.log("2"+2); // output 22
+console.log(2+"2"); // output 22
+console.log('2'+'2'); // output 22
+
+//special case
+// first convert to string bcz first there is "2"
+console.log("2"+2+1);  // output 221
+// first add numbers thn add to strings
+console.log(1+2 +"2")// output 32
