@@ -11,6 +11,7 @@ console.log("Nayaab");
 
 let name ="Nayaab";  //string
 let age = 19;  // number
+//  bigint is also uswed for storing bigger values
 let isLoggedIn = false;  //boolean
 
 
