@@ -10,7 +10,7 @@ console.log("Nayaab");
 
 
 let name ="Nayaab";  //string
-let age = 19;  // int
+let age = 19;  // number
 let isLoggedIn = false;  //boolean
 
 
