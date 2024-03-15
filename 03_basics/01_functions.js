@@ -78,3 +78,11 @@ function handleObject(anyObject){
 }
 
 handleObject(user);
+
+
+
+
+// different syntax for declaration 
+const addTwo = function(num1, num2){
+    return num1+num2;
+}
