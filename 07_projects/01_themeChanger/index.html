@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theme Changer</title>
+    <style>
+        body{
+            align-items: center;
+
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+        }
+        .box{
+            height: 100px;
+            width: 100px;
+            margin: 5px;
+        }
+        #grey{
+            background-color: gray;
+        }
+        #white{
+            background-color: white;
+        }
+        #blue{
+            background-color: blue;
+        }
+        #yellow{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Color Scheme Switcher</h1>
+    <div class="container">
+        <button class="box" id="grey" onclick="
+            document.body.style.backgroundColor = `gray`"></button>
+        <button class="box" id="white" onclick="
+        document.body.style.backgroundColor = `white`"></button>
+        <button class="box" id="blue" onclick="
+        document.body.style.backgroundColor = `blue`"></button>
+        <button class="box" id="yellow" onclick="
+        document.body.style.backgroundColor = `yellow`"></button>
+
+    </div>
+</body>
+</html>
